@@ -17,7 +17,7 @@ variable "az_count" {
 
 variable "app_image" {
   description = "Docker image to run in the ECS cluster"
-  default     = "bradfordhamilton/crystal_blockchain:latest"
+  default     = "660656678331.dkr.ecr.us-east-1.amazonaws.com/node:latest"
 }
 
 variable "app_port" {
